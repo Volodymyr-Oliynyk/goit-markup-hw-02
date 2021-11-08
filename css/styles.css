@@ -1,14 +1,54 @@
+:root {
+  --main-title-color: #212121;
+  --header-text-color: #212121;
+  --text-color: #757575;
+  --first-button-color: #f5f4fa;
+  --second-button-color: #2196f3;
+  --accent-color: #2196f3;
+}
 body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
   color: #212121;
 }
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+
 .nav-logo {
-  color: #000000;
+  color: var(--header-text-color);
 }
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+
+.nav-list {
+  color: var(--header-text-color);
+}
+.nav :hover,
+.nav :focus {
+  color: var(--accent-color);
+}
+
+/* body {
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
 .list {
   list-style: none;
 }
@@ -23,7 +63,7 @@ body {
 /* цвет фона команды #F5F4FA */
 
 /* site nav */
-.site-nav .link {
+/*.site-nav .link {
   color: #212121;
 }
 
@@ -46,4 +86,4 @@ body {
 }
 .first-title {
   color: #e5e5e5;
-}
+} */
