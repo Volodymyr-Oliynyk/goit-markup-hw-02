@@ -3,7 +3,7 @@
   --header-text-color: #212121;
   --text-color: #757575;
   --first-button-color: #f5f4fa;
-  --second-button-color: #2196f3;
+  --second-button-color: #212121;
   --accent-color: #2196f3;
 }
 body {
@@ -19,15 +19,7 @@ body {
 .link {
   text-decoration: none;
 }
-
-.header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--header-text-color);
-}
-
+/* -----------------HEADER----------------*/
 .nav-logo {
   color: var(--header-text-color);
 }
@@ -43,47 +35,145 @@ body {
   color: var(--accent-color);
 }
 
-/* body {
-  background-color: #e5e5e5;
-  font-family: Roboto, sans-serif;
-  color: #212121;
-}
-
-.list {
-  list-style: none;
-}
-/* основной цвет #212121 */
-/* вторичный цвет #757575 */
-/* акцент background: #2196F3; */
-/* белый цвет #FFFFFF */
-/* цвет футер rgba(255, 255, 255, 0.6); */
-
-/* цвет основного фона #E5E5E5; */
-/* вторичный цвет фона #2F303A */
-/* цвет фона команды #F5F4FA */
-
-/* site nav */
-/*.site-nav .link {
-  color: #212121;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
 }
 .contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+/* -----------------HERO----------------- */
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
-.section-title {
-  color: #212121;
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
-.first-title {
-  color: #e5e5e5;
-} */
+/* -----------skills----------------- */
+.skills-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.skills-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ------------service------------------- */
+
+.service-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+/*--------------C O M M A N D--------------------  */
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.command-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* -----------------PORTFOLIO--filter-button---------------- */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-button-color);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ---------FOOTER------------------ */
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-button-color);
+}
+
+.adress-link {
+  color: var(--header-text-color);
+}
+.footer :hover,
+.footer :focus {
+  color: var(--accent-color);
+}
+.adress-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--first-button-color);
+}
