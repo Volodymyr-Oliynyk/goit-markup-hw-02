@@ -20,11 +20,11 @@ body {
   text-decoration: none;
 }
 /* -----------------HEADER----------------*/
-.nav-logo {
-  color: var(--header-text-color);
+.logo-web {
+  color: var(--accent-color);
 }
 .logo {
-  color: var(--accent-color);
+  color: var(--header-text-color);
 }
 
 .nav-list {
