@@ -23,7 +23,14 @@ body {
 .logo-web {
   color: var(--accent-color);
 }
+
 .logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
 
@@ -35,6 +42,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -42,6 +53,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
@@ -54,6 +66,9 @@ body {
   color: var(--accent-color);
 }
 /* -----------------HERO----------------- */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -67,15 +82,16 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88px;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: var(--accent-color);
 }
 /* -----------skills----------------- */
-.skills-title {
+.skill-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -84,16 +100,19 @@ body {
   color: var(--main-title-color);
 }
 
-.skills-text {
+.skill-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-/* ------------service------------------- */
+/* ------------SERTVISE and TEAM------------------- */
 
-.service-title {
+.team {
+  background-color: #f5f4fa;
+}
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -102,16 +121,7 @@ body {
   color: var(--main-title-color);
 }
 
-/*--------------C O M M A N D--------------------  */
-.command-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
-.command-subtitle {
+.team-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -120,16 +130,17 @@ body {
   color: var(--main-title-color);
 }
 
-.command-text {
+.team-text {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /* -----------------PORTFOLIO--filter-button---------------- */
 
-.filter-button {
+.secondery-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -137,6 +148,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-button-color);
+}
+
+.filter-item :hover,
+.filter-item :focus,
+.filter-item :active {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .project-title {
@@ -154,6 +172,10 @@ body {
 }
 /* ---------FOOTER------------------ */
 
+.footer {
+  background-color: #2f303a;
+}
+
 .footer-logo {
   font-family: Raleway;
   font-style: 400;
@@ -165,13 +187,7 @@ body {
 }
 
 .adress-link {
-  color: var(--header-text-color);
-}
-.footer :hover,
-.footer :focus {
-  color: var(--accent-color);
-}
-.adress-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
