@@ -39,6 +39,7 @@ body {
 .nav {
   cursor: pointer;
 }
+
 .nav-list {
   color: var(--primary-color);
 }
@@ -122,6 +123,7 @@ body {
 .team {
   background-color: var(--secondary-background-color);
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
