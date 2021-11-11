@@ -22,7 +22,9 @@ body {
 .link {
   text-decoration: none;
 }
+
 /* -----------------HEADER----------------*/
+
 .logo-web {
   color: var(--accent-color);
 }
