@@ -35,12 +35,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
+
 .nav {
   cursor: pointer;
 }
 .nav-list {
   color: var(--primary-color);
 }
+
 .nav :hover,
 .nav :focus {
   color: var(--accent-color);
@@ -70,10 +72,13 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
+
 /* -----------------HERO----------------- */
+
 .hero {
   background-color: var(--primary-background-color);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -83,6 +88,7 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color);
 }
+
 .primary-button {
   font-family: inherit;
   font-weight: 700;
@@ -92,7 +98,9 @@ body {
   color: var(--secondary-color);
   background-color: var(--accent-color);
 }
+
 /* -----------skills----------------- */
+
 .skill-title {
   font-weight: 700;
   font-size: 14px;
@@ -112,7 +120,8 @@ body {
 /* ------------SERTVISE and TEAM------------------- */
 
 .team {
-  background-color: var(--secondary-background-color)
+  background-color: var(--secondary-background-color);
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -181,10 +190,12 @@ body {
 .logo-white {
   color: var(--secondary-shade-color);
 }
+
 .address :hover,
 .address :focus {
   color: var(--accent-color);
 }
+
 .address-link {
   font-style: normal;
   font-size: 14px;
@@ -192,6 +203,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
 .address-item {
   font-style: normal;
   font-size: 14px;
